@@ -1,0 +1,13 @@
+
+The convolutional layer added between A03 and A04 causes the model to achieve a 
+higher overall accuracy and lower loss than the network without but has the 
+effect of increasing training time because the network has to apply filters 
+to each image in the training set. The accuracy of the network increased by 
+~5% (from ~90% to ~95%) but the training time increased from ~15s/epoch to 
+120s/epoch.
+
+The accuracy is increased when using the convolutional layers because the 
+convolution operation is able to extract secondary features from the data
+such as position of pixels in relation to other pixels. In the MNIST set,
+handwritten digits are classified and both position of pixels and grouping of 
+pixels is important.

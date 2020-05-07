@@ -1,0 +1,5 @@
+filename,epochs,epoch_time,total_time,max_epoch,max_accuracy,min_loss,normal_precision,normal_recall,normal_f1,normal_support,dos_precision,dos_recall,dos_f1,dos_support,probe_precision,probe_recall,probe_f1,probe_support,u2r_precision,u2r_recall,u2r_f1,u2r_support,r2l_precision,r2l_recall,r2l_f1,r2l_support
+encoded-3-layer-50-50-50,200,4.92,16.41,194,0.9818,0.0854,0.980,0.983,0.982,15493,0.986,0.992,0.989,10569,0.959,0.956,0.957,2861,0.000,0.000,0.000,25,0.879,0.792,0.833,755
+3-layer-50-50-50,200,4.87,16.22,190,0.9810,0.0934,0.980,0.988,0.984,15494,0.982,0.996,0.989,10548,0.963,0.936,0.949,2856,0.000,0.000,0.000,22,0.941,0.739,0.828,783
+oversampled-encoded-3-layer-50-50-50,200,4.89,16.29,134,0.9786,0.1078,0.983,0.975,0.979,15513,0.980,0.989,0.985,10621,0.956,0.912,0.934,2739,0.262,0.640,0.372,25,0.735,0.850,0.788,805
+presentation-oversampled-encoded-3-layer-50-50-50,5,6.38,0.53,4,0.9176,0.4301,0.918,0.973,0.945,15387,0.952,0.931,0.941,10751,0.740,0.767,0.753,2782,0.000,0.000,0.000,23,0.000,0.000,0.000,760
